@@ -1,5 +1,6 @@
 .zsh_history
 .zshrc.local
+.gitconfig.local
 .DS_Store
 *.pysave
 tmux/.tmux/plugins/

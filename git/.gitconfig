@@ -1,0 +1,17 @@
+[core]
+	autocrlf = input
+	editor = code --wait
+[alias]
+	st = status -s
+	main = switch main
+	lg = log --oneline --graph --decorate
+	last = log -1 HEAD
+	alias = config --get-regexp alias
+	undo = reset --soft HEAD^
+	fa = fetch --all --prune
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[include]
+	path = ~/.gitconfig.local
